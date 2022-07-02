@@ -21,6 +21,6 @@
                               'icon "github"
                               'status status
                               'color (cond
-                                       [(status-number . >= . 80.) "green"]
-                                       [(status-number . >= . 50.) "yellow"]
+                                       [(status-number . >= . 80) "green"]
+                                       [(status-number . >= . 50) "yellow"]
                                        [else "red"]))))))
