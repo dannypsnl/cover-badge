@@ -11,7 +11,7 @@ raco pkg install --auto cover-badge
 This `raco` plugin requires you run `raco cover` first, for example, in CI flow you can write
 
 ```racket
-raco cover .
+raco cover -b .
 raco cover-badge
 ```
 
