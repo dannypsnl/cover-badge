@@ -8,7 +8,7 @@
 (command-line
  #:program (short-program+command-name)
  #:args ()
- (define matches (regexp-match #px"Total Project Coverage: \\d+\\.\\d+%"
+ (define matches (regexp-match #px"Total Project Coverage: \\d+(\\.\\d+)?%"
                                (open-input-file "coverage/index.html")))
  (unless matches
    (error 'no-matches "please run `raco cover -b .` first!"))
