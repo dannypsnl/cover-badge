@@ -10,8 +10,8 @@
  #:args ()
  (define matches (regexp-match #px"Total Project Coverage: \\d+\\.\\d+%"
                                (open-input-file "coverage/index.html")))
- (when matches
-   (error 'no-matches "please from `raco cover .` first!"))
+ (unless matches
+   (error 'no-matches "please run `raco cover -b .` first!"))
  (define status (substring ((compose bytes->string/utf-8 car) matches) 24))
  (define status-number (string->number (string-trim status "%")))
  (with-output-to-file "coverage/badge.json"
