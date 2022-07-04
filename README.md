@@ -18,7 +18,7 @@ raco cover-badge
 Deploy directory `<repo>/coverage/` to any place, e.g. GitHub pages. Then you can access the `badge.json`, for example, if you put the `coverage/` to GitHub pages. You might have an URL `https://<user name/org name>.github.io/<repo name>/coverage/badge.json`, all you need now is the following:
 
 ```markdown
-![](https://badgen.net/https/<user name/org name>.github.io/<repo name>/coverage/badge.json)
+![](https://badgen.net/https/<user/org name>.github.io/<repo name>/coverage/badge.json)
 ```
 
 For example
