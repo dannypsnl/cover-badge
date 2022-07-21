@@ -9,4 +9,4 @@
 
 ;;; raco command setup
 (define raco-commands
-  '(("cover-badge" cover-badge/main "generate badge JSON" 30)))
+  '(("cover-badge" (submod cover-badge/main main) "generate badge JSON" 30)))
