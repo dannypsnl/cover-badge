@@ -24,11 +24,11 @@ Deploy directory `<repo>/coverage/` to any place, e.g. GitHub pages. Then you ca
 For instances
 
 ```markdown
-[![](https://badgen.net/https/racket-tw.github.io/syntax-extension/coverage/badge.json)](https://racket-tw.github.io/syntax-extension/coverage)
-[![](https://badgen.net/https/racket-tw.github.io/sauron/coverage/badge.json)](https://racket-tw.github.io/sauron/coverage)
+[![](https://badgen.net/https/dannypsnl.github.io/syntax-extension/coverage/badge.json)](https://dannypsnl.github.io/syntax-extension/coverage)
+[![](https://badgen.net/https/dannypsnl.github.io/sauron/coverage/badge.json)](https://dannypsnl.github.io/sauron/coverage)
 ```
 
 Result:
 
-[![](https://badgen.net/https/racket-tw.github.io/syntax-extension/coverage/badge.json)](https://racket-tw.github.io/syntax-extension/coverage)
-[![](https://badgen.net/https/racket-tw.github.io/sauron/coverage/badge.json)](https://racket-tw.github.io/sauron/coverage)
+[![](https://badgen.net/https/dannypsnl.github.io/syntax-extension/coverage/badge.json)](https://dannypsnl.github.io/syntax-extension/coverage)
+[![](https://badgen.net/https/dannypsnl.github.io/sauron/coverage/badge.json)](https://dannypsnl.github.io/sauron/coverage)
